@@ -4,7 +4,7 @@ const sequilize = require('./db');
 const models = require('./models');
 const cors = require('cors');
 const router = require('./routes/index');
-const errorHandler = require('../backend/middleware/ErrorHandlingMiddleware');
+const errorHandler = require('./middleware/ErrorHandlingMiddleware');
 
 const PORT = process.env.PORT || 5000;
 
